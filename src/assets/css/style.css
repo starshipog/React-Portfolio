@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2a617c86;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #2a607c;
+    ;
+    color: rgb(0, 0, 0);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 100px;
+    height: 80px;
+}
+
+header aside {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header aside ul {
+    list-style-type: none;
+}
+
+header aside ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header img {
+    width: 10%;
+    margin-bottom: 0%;
+    background-size: cover;
+    background-position: center;
+}
+
+.subtitle {
+    height: 50px;
+    width: 25x;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-color: #2a617c86;
+    float: right;
+    font-size: 50px;
+}
+
+main {
+    width: 75%;
+    display: block;
+    margin: 0%;
+}
+
+.AboutMe {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a617c86;
+    color: rgb(0, 0, 0);
+}
+
+
+.AboutMe h2 {
+    font-size: 75px;
+}
+
+
+.AboutMe p {
+    font-size: 25px;
+}
+
+
+.Work {
+    margin-bottom: 100px;
+    padding: 50px;
+    height: 1500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a617c86;
+    color: rgb(0, 0, 0);
+}
+
+.Work h2 {
+    font-size: 75px;
+}
+
+
+.Web1 img {
+    width: 50%;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.Web2 img {
+    width: 50%;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+
+.Web3 img {
+    width: 25%;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+
+
+.Web1 {
+    font-size: 25px;
+}
+
+.Web2 {
+    font-size: 25px;
+}
+
+
+.Web3 {
+    font-size: 25px;
+}
+
+
+
+.ContactMe {
+    display: block;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a617c86;
+    color: rgb(0, 0, 0);
+}
+
+.ContactMe h2 {
+    display: block;
+    font-size: 75px;
+}
+
+.ContactMe p {
+    font-size: 25px;
+}
+
+
+/*Tablets*/
+@media screen and (max-width: 992px) {
+    header,
+    h2, 
+    main {
+        flex-direction: column;
+    }
+
+    .AboutMe {
+        height: 1500px;
+    }
+
+    .Work {
+        height: 850px;
+    }
+}
+
+/*Large Smartphones*/
+@media screen and (max-width: 768px) {
+    header,
+    h2, 
+    main {
+        flex-direction: column;
+    }
+
+    .AboutMe {
+        height: 1000px;
+    }
+
+    .Work {
+        height: 750px;
+    }
+}
+
+/*Small Smartphones*/
+@media screen and (max-width: 576px) {
+    header,
+    h2, 
+    main {
+        flex-direction: column;
+    }
+
+    .AboutMe {
+        height: 750px;
+    }
+
+    .Work {
+        height: 500px;
+    }
+}
