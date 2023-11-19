@@ -14,7 +14,7 @@ export default function SectionThree() {
         >
           <div style={linkStyle}>
             
-          <section id="Contact-Me" class="ContactMe">
+          <section id="Contact-Me" className="ContactMe">
             <h2>Contact Me</h2>
             <p>
                 chayewhitaker14@gmail.com
