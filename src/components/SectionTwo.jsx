@@ -13,10 +13,10 @@ export default function SectionTwo() {
           }}
         >
           <div style={linkStyle}>
-            <section id="Work" class="Work">
+            <section id="Work" className="Work">
             <h2>My Work</h2>
 
-            <p class="Web1">
+            <p className="Web1">
                 Marketing Site Update
                 <a href="https://starshipog.github.io/marketing-site-update/">
                 
@@ -25,7 +25,7 @@ export default function SectionTwo() {
                 </a>
             </p>
 
-            <p class="Web2">
+            <p className="Web2">
                 CyberMart
                 <a href="https://cybermart1-76e7c43ac326.herokuapp.com/">
 {/*                 
@@ -35,7 +35,7 @@ export default function SectionTwo() {
 
             </p>
 
-            <p class="Web3">
+            <p className="Web3">
                 Demo Site 3
                     <a href="https://www.funbrain.com/">
                     

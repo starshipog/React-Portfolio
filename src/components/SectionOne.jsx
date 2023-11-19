@@ -13,12 +13,12 @@ export default function SectionOne() {
           }}
         >
           <div style={linkStyle}>
-            <section id="About-Me" class="AboutMe">
+            <section id="About-Me" className="AboutMe">
             <h2>About Me</h2>
-            <P>
-               My name is Chaye, I'm from north Texas and I love to create and design. I have a naturally passion for 
+            <p className="card-text">
+               My name is Chaye, Im from north Texas and I love to create and design. I have a naturally passion for 
                creating and designing makes writing and building code more fun and easier. 
-            </P>
+            </p>
             </section>
           </div>
 
