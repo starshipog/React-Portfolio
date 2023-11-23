@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Nav from './components/Nav';
+
 import Description from './components/Description';
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
@@ -13,7 +13,6 @@ export default function App() {
   return (
     <div>
       <Header />
-      <Nav />
       <Description />
       <SectionOne />
       <SectionTwo />

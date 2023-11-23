@@ -1,3 +1,4 @@
+import Nav from './components/Nav';
 export default function Header() {
     const linkStyle = { border: '1px black', padding: '5px' };
   
@@ -15,6 +16,8 @@ export default function Header() {
           <div style={linkStyle}>
             <h1>Chaye</h1>
             <img src="assets\images\park-wy-3237037a.jpg"></img>
+
+            <Nav />
           </div>
 
         </section>
