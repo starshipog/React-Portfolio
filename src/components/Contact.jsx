@@ -1,4 +1,5 @@
-export default function SectionTwo() {
+import Footer from './components/Footer';
+export default function Contact() {
     const linkStyle = { border: '1px black', padding: '5px' };
   
     return (
@@ -13,38 +14,8 @@ export default function SectionTwo() {
           }}
         >
           <div style={linkStyle}>
-            <section id="Work" className="Work">
-            <h2>My Work</h2>
-
-            <p className="Web1">
-                Marketing Site Update
-                <a href="https://starshipog.github.io/marketing-site-update/">
-                
-                {/* <img src="assets\images\starshipog.github.io_marketing-site-update_.png" alt="Marketing site webpage"> */}
-                
-                </a>
-            </p>
-
-            <p className="Web2">
-                CyberMart
-                <a href="https://cybermart1-76e7c43ac326.herokuapp.com/">
-{/*                 
-                <img src="assets\images\cybermart ss.png" alt="Cybermart homepage with tech products for sale"> */}
-
-                </a>
-
-            </p>
-
-            <p className="Web3">
-                Demo Site 3
-                    <a href="https://www.funbrain.com/">
-                    
-                    {/* <img src="assets\images\blog_page.png" alt="Red Demo Webpage"> */}
-
-                    </a>
-            </p>
-
-            </section>
+            
+            <Footer />
           </div>
 
         </section>

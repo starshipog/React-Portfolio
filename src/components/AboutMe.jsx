@@ -1,4 +1,4 @@
-export default function SectionOne() {
+export default function AboutMe() {
     const linkStyle = { border: '1px black', padding: '5px' };
   
     return (
