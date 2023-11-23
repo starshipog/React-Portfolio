@@ -1,9 +1,7 @@
 import Header from './components/Header';
 
-import Description from './components/Description';
-import SectionOne from './components/SectionOne';
-import SectionTwo from './components/SectionTwo';
-import SectionThree from './components/SectionThree';
+import Section from './components/Section';
+import Footer from './components/Footer';
 
 // Import our list of users from users.js
 // import users from './users';
@@ -13,10 +11,8 @@ export default function App() {
   return (
     <div>
       <Header />
-      <Description />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
+      <Section />
+      <Footer />
 
     </div>
   );
