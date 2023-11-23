@@ -1,4 +1,5 @@
 import Footer from './components/Footer';
+
 export default function Contact() {
     const linkStyle = { border: '1px black', padding: '5px' };
   
