@@ -14,7 +14,7 @@ export default function AboutMe() {
         >
           <div style={linkStyle}>
             <section id="About-Me" className="AboutMe">
-            <h2>About Me</h2>
+            <h1>About Me</h1>
             <p className="card-text">
                My name is Chaye, Im from north Texas and I love to create and design. I have a naturally passion for 
                creating and designing makes writing and building code more fun and easier. 
