@@ -111,11 +111,11 @@ export default function Foot() {
 
 
 
-//  1) Your application doesn't have a footer. Make sure to create a 'Footer' component that will display on all pages. (DONE)
+//  1) Your application doesn't have a footer. Make sure to create a 'Footer' component that will display on all pages. (Double check all pages for a footer)
 
 // 2) You should have a resume section that contains a link to download your resume as well as a list of your proficiences. (GET HELP ADDING LINK)
 
-// 3) Your links are not working for the different sections of your portfolio. When one of them is clicked, it should display a different page containing the necessary information.
+// 3) Your links are not working for the different sections of your portfolio. When one of them is clicked, it should display a different page containing the necessary information. (ADD PROJECT 1, 2 & 3 THEN IM DONE)
 
 // 4) You are missing the required contact form. Make sure that you create a form for contacting you that contains form validation.
 
