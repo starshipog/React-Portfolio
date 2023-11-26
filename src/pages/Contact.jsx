@@ -1,4 +1,4 @@
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 
 
@@ -24,7 +24,7 @@ const contactFormHandler = async (event) => {
   }
 };
 
-onSubmit=contactFormHandler
+// onSubmit=contactFormHandler
 
 
 
@@ -44,7 +44,7 @@ export default function Contact() {
         >
           <div style={linkStyle}>
             
-      <form className="form signup-form">
+    <form className="form signup-form" onSubmit={contactFormHandler} >
       <div className="form-group">
         <label htmlFor="name">name:</label>
         <input className="form-input" type="text" id="name-signup" />
@@ -62,7 +62,7 @@ export default function Contact() {
       </div>
     </form>
 
-            <Footer />
+            {/* <Footer /> */}
           </div>
 
         </section>

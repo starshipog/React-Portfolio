@@ -1,4 +1,4 @@
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 export default function Resume() {
     const linkStyle = { border: '1px black', padding: '5px' };
@@ -45,7 +45,7 @@ export default function Resume() {
               <li>GraphQL</li>
             </ul>
             </section>
-            <Footer />
+            {/* <Footer /> */}
           </div>
 
         </section>

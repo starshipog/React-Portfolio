@@ -13,7 +13,7 @@ export default function AboutMe() {
           }}
         >
           <div style={linkStyle}>
-            <section id="About-Me" className="AboutMe">
+            <section id="AboutMe" className="AboutMe">
             <h1>About Me</h1>
             <p className="card-text">
                My name is Chaye, Im from north Texas and I love to create and design. I have a naturally passion for 

@@ -36,10 +36,10 @@ export default function Portfolio() {
           </p>
 
           <p className="Web3">
-              Demo Site 3
-                  <a href="https://www.funbrain.com/">
+              Cool Dice
+                  <a href="https://cool-dice-game-9c029df8dfbf.herokuapp.com/">
                   
-                  <img src="assets\images\blog_page.png" alt="Red Demo Webpage"/>
+                  <img src="assets\images\Screenshot-1.png" alt="Green game screen with high scores and signup page"/>
 
                   </a>
           </p>

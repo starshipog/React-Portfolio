@@ -111,7 +111,7 @@ export default function Foot() {
 
 
 
-//  1) Your application doesn't have a footer. Make sure to create a 'Footer' component that will display on all pages. (Double check all pages for a footer)
+// 1) Your application doesn't have a footer. Make sure to create a 'Footer' component that will display on all pages. (DONE)
 
 // 2) You should have a resume section that contains a link to download your resume as well as a list of your proficiences. (GET HELP ADDING LINK)
 
