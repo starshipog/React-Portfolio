@@ -74,12 +74,6 @@ export default function Foot() {
 
 
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <App />
-)
-
-
 // export default function Section() {
 //     const linkStyle = { border: '1px black', padding: '5px' };
   
