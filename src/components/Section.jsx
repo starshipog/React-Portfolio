@@ -1,11 +1,11 @@
 export default function Pages({ children, ...props }) {
   return (
-    <li
+    <div
       className="list-group-item pt-4 d-flex justify-content-center align-items-center"
       {...props}
     >
       {children}
-    </li>
+    </div>
   );
 }
 
