@@ -2,6 +2,7 @@ import Header from './components/Header';
 
 import Section from './components/Section';
 import Footer from './components/Footer';
+import { Outlet } from 'react-router-dom';
 
 // Import our list of users from users.js
 // import users from './users';
@@ -12,6 +13,7 @@ export default function App() {
     <div>
       <Header />
       <Section />
+      <Outlet/>
       <Footer />
 
     </div>

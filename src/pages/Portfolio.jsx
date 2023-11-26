@@ -20,7 +20,7 @@ export default function Portfolio() {
               Marketing Site Update
               <a href="https://starshipog.github.io/marketing-site-update/">
               
-              {/* <img src="assets\images\starshipog.github.io_marketing-site-update_.png" alt="Marketing site webpage"> */}
+              <img src="assets\images\starshipog.github.io_marketing-site-update_.png" alt="Marketing site webpage"/>
               
               </a>
           </p>
@@ -28,8 +28,8 @@ export default function Portfolio() {
           <p className="Web2">
               CyberMart
               <a href="https://cybermart1-76e7c43ac326.herokuapp.com/">
-{/*                 
-              <img src="assets\images\cybermart ss.png" alt="Cybermart homepage with tech products for sale"> */}
+
+              <img src="assets\images\cybermart ss.png" alt="Cybermart homepage with tech products for sale"/>
 
               </a>
 
@@ -39,7 +39,7 @@ export default function Portfolio() {
               Demo Site 3
                   <a href="https://www.funbrain.com/">
                   
-                  {/* <img src="assets\images\blog_page.png" alt="Red Demo Webpage"> */}
+                  <img src="assets\images\blog_page.png" alt="Red Demo Webpage"/>
 
                   </a>
           </p>

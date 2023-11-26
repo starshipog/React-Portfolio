@@ -20,6 +20,7 @@ export default function Resume() {
             <p className="card-text">
                Download my resume
                {/* add a link for my resume */}
+               {/* https://docs.google.com/document/d/1MG47D5lH_xRIgOhYyuJQ9cbLrp9qG4Vp1Egq_KN9RhI/edit?usp=sharing */}
             </p>
 
             <h2>Front-end Proficiencies</h2>
