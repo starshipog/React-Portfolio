@@ -24,10 +24,7 @@ const contactFormHandler = async (event) => {
   }
 };
 
-document
-  .querySelector('.contact-form')
-  .addEventListener('submit', contactFormHandler);
-
+onSubmit=contactFormHandler
 
 
 
